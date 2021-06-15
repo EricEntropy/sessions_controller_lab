@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+system('clear')
 RSpec.describe SessionsController, type: :controller do
   render_views
   describe 'post create' do
